@@ -42,7 +42,7 @@ void merge(int *array, int l, int m, int r) {
       j++; k++;
    }
 }
-void mergeSort(int *array, int l, int r) {
+void mergeSort(int *array, int l, int r) {                   //for merging we use void merge method
    int m;
    if(l < r) {
       int m = l+(r-l)/2;
